@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    text-align: center;
+}
+#missao strong{
+    color: red; 
+}
+#banner{
+    width: 100%;
+}
+.itens{
+    font-style: italic;
+    text-align: left;
+    margin-left: 8%;
+    gap: 2%;
+    padding-bottom: 4%;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.beneficios img{
+    width: 50%;
+ 
+    max-width: 1380px;
+   
+}
+
+.beneficios {
+    margin-top: 5vh;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    
+}
+
+.beneficios h2{
+    color: rgb(234, 205, 18);
+    padding-top: 2%;
+    font-size: 32px;
+}
+
+.text-box{
+    width: 100%;
+    padding: 25px;
+
+    align-items:center;
+}
