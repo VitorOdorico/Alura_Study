@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(39, 39, 39);
+}
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 0;
+}
+h1 img{
+    width: 45px;
+    margin-left: 15px;
+}
+
+nav li{
+    display: inline;
+    padding: 0 10px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    
+    font-weight: bold;
+    font-size: 19px;
+    
+}
+nav a:hover{
+    color: gold;
+}
+
+nav{
+    position: absolute;
+    top: 22px;
+    right: 0;
+}
+
+.box{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+
+.produtos img{
+    width: 100%;
+}
+
+.produtos li{
+    display: inline-block;
+    width: 25%;
+    height: 25rem;
+    text-align: center;
+    vertical-align: top;
+    border: 1px white solid;
+    background-color: white;
+    margin: 0 2rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.produtos li:hover{
+    width: 28%;
+    height: 26rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-top: 1rem;
+}
+
+.valorProduto{
+    border: solid #363636;
+    background-color: #363636;
+    width: 6rem;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-left: 4rem;
+    border-radius: 0.2rem;
+}
+
+.textProdutos{
+    /* width: 14rem; */
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.produtos b{
+    color: gold;
+}
