@@ -23,7 +23,6 @@ nav a{
     text-transform: uppercase;
     text-decoration: none;
     color: black;
-    
     font-weight: bold;
     font-size: 19px;
     
@@ -74,6 +73,7 @@ nav{
     height: 26rem;
     font-size: 1.4rem;
     text-align: center;
+    border: 2px rgb(171, 148, 20) solid;
 }
 
 .produtos h2{
@@ -94,6 +94,9 @@ nav{
     border-radius: 0.2rem;
 }
 
+.produtos li:hover .valorProduto{
+    margin-left: 5rem;
+}
 .textProdutos{
     /* width: 14rem; */
     font-size: 1.2rem;
@@ -102,4 +105,23 @@ nav{
 
 .produtos b{
     color: gold;
+}
+
+footer{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+footer img{
+    width: 4rem;
+}
+
+footer p {
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 2rem;
 }
