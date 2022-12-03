@@ -1,18 +1,20 @@
 *{
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
 }
 
 body{
     text-align: center;
+    width: 100%;
 }
 #missao strong{
     color: red; 
 }
-#banner{
-    width: 100%;
-}
+
 .itens{
     font-style: italic;
     text-align: left;
