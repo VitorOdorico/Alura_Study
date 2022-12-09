@@ -61,3 +61,110 @@ footer p {
     text-align: center;
     padding-top: 2rem;
 }
+
+.container{
+    width: 30rem;
+    /* height: 40rem; */
+    background-color: rgb(255, 255, 255);
+    margin-top: 10rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 23px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container h3{
+    color: gold;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.name-area{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.firstName{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lastName{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    width: 26rem;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.email label{
+    text-align: left;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    width: 26rem;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.number label{
+    text-align: left;
+}
+
+.enviar input{
+    width: 12rem;
+    height: 3rem;
+    margin: 2rem 0;
+    background-color: gold;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border: white;
+}
+
+label{
+    margin-top: 0.4rem;
+}
+
+h3{
+    margin-top: 2rem;
+}
+
+input{
+    height: 2rem;
+}
+
+.question textarea{
+    width: 26rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
