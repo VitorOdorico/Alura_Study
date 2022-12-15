@@ -2,3 +2,8 @@
 
 name = 'name'
 print(name)
+
+#  para descobrir o tipo de dado da vareavel usa-se type:
+
+print(type(name))
+
