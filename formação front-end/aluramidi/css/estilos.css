@@ -67,3 +67,8 @@ h1 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--branca) inset, 1px 1px 10px var(--luz);
 }
+
+h1{
+  color: #0f0f0f;
+  font-weight: bold;
+}
