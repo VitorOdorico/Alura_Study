@@ -1,39 +1,39 @@
 // {document} é para selecionar o documento {querySelector} para selecionar o elemento.
 
+
+
 const listaDeTeclas = document.querySelectorAll('.tecla');
-const listaDeSons = document.querySelectorAll('audio');
 
 function tocarSom(){
-    document.querySelector(listaDeSons).play();
+    document.querySelector('#som_tecla_pom').play();
+
+}
+
+let contador = 0;
+
+while(contador < listaDeTeclas.length){
+    listaDeTeclas[contador].onclick = tocarSom;
+
+    contador += 1;
+    console.log(contador)
 }
 
 
-for(let i = 0 ; listaDeTeclas.length < listaDeTeclas; i =+ 1){
-    listaDeTeclas[i].onclick = tocarSom;
-}
+// const listaDeTeclas = document.querySelectorAll('.tecla');
+// const listaDeSons = [
+//     document.querySelectorAll(Audio)
+// ]
 
-tocarSom();
-
-
-
-
-
-
-
+// function tocarSom(){
+//     for(let i = 0; listaDeSons.length < listaDeSons; i += 1){
+//         listaDeSons[i].play()
+//     }
+// }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+// for(let i = 0 ; listaDeTeclas.length < listaDeTeclas; i =+ 1){
+//     listaDeTeclas[i].onclick = tocarSom();
+// }
 
 
 
