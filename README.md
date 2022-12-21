@@ -5,6 +5,6 @@
 ## principais cursos abordados
 * formação front-end
 * formação iniciante em programação
-* formaçao JavaScript para front-end
-* formaçao JavaScript para back-end
-* 
+* formação JavaScript para front-end
+* formação JavaScript para back-end
+* formação em python
