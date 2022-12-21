@@ -9,3 +9,16 @@ console.log("A soma dos valores é ", soma)
 
 // [Running] node "c:\projetos dev\alura\formação js para back-end\tipos de dados\vareaveis.js"
 // A soma dos valores é  40
+
+let forma  = 'retangulo';
+let area;
+let altura = 5;
+let comprimento = 7;
+if(forma === 'retangulo'){
+    area = altura * comprimento;
+    console.log(area)
+}else{
+    area = altura * comprimento / 2;
+    console.log(area)
+}
+
