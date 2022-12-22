@@ -3,7 +3,7 @@ let numeroDois = 30
 
 const soma = numeroUm + numeroDois;
 
-console.log("A soma dos valores é ", soma)
+// console.log("A soma dos valores é ", soma)
 
 // resultado:
 
@@ -17,8 +17,7 @@ let comprimento = 7;
 if(forma === 'retangulo'){
     area = altura * comprimento;
     console.log(area)
-}else{
-    area = altura * comprimento / 2;
-    console.log(area)
+}else if(forma != 'retangulo'){
+    console.log('isso não é um retangulo')
 }
 
