@@ -1,6 +1,7 @@
 // tipos de erros 
 
-const numero;
+    //  erro:
+      // const numero;
 
 // [Running] node "c:\projetos dev\alura\formação js para back-end\tipos de dados\error.js"
 // c:\projetos dev\alura\formação js para back-end\tipos de dados\error.js:3
