@@ -103,26 +103,32 @@
                 let skills = prompt('Qual a habilidade que deseja apreender? ')
 
                 function habilidades(){
-                    if(skills === 'javascript'){
-                        window.alert('JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web')
-                    }else if(skills == 'ruby'){
-                        window.alert('Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com gerenciamento de memória automático, originalmente planejada e desenvolvida no Japão em 1995, por Yukihiro "Matz" Matsumoto, para ser usada como linguagem de script.')
-                    }else if(skills == 'python'){
-                        window.alert('Python é uma linguagem de programação de alto nível e de propósito geral. Sua filosofia de design enfatiza a legibilidade do código com o uso de recuo significativo. Python é tipado dinamicamente e coletado como lixo')
+                    switch(skills){
+                        case 'javascript':
+                            window.alert('JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web')
+                        case 'python':
+                            window.alert('Python é uma linguagem de programação de alto nível e de propósito geral. Sua filosofia de design enfatiza a legibilidade do código com o uso de recuo significativo. Python é tipado dinamicamente e coletado como lixo')
+                        case 'ruby':
+                            window.alert('Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com gerenciamento de memória automático, originalmente planejada e desenvolvida no Japão em 1995, por Yukihiro "Matz" Matsumoto, para ser usada como linguagem de script.')
+                        break;
+                        default:
+                            window.alert('end program');
                     }
-                }
+                //     if(skills === 'javascript'){
+                //         window.alert('JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web')
+                //     }else if(skills == 'ruby'){
+                //         window.alert('Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com gerenciamento de memória automático, originalmente planejada e desenvolvida no Japão em 1995, por Yukihiro "Matz" Matsumoto, para ser usada como linguagem de script.')
+                //     }else if(skills == 'python'){
+                //         window.alert('Python é uma linguagem de programação de alto nível e de propósito geral. Sua filosofia de design enfatiza a legibilidade do código com o uso de recuo significativo. Python é tipado dinamicamente e coletado como lixo')
+                //     }
+                // }
 
                 let maisAlgo = prompt('Tem mais alguma tecnologia que você gostaria de aprender? digite "ok" se sim, qual?')
                     for(let i = 0; maisAlgo === 'ok'; maisAlgo += maisAlgo){
                         skills = prompt('Qual a habilidade que deseja apreender? ')
                         habilidades();
                     }
-            };
-        };
+            }
+        }
     
  
-
-
-  
-
-    // 4. Por fim, pergunte quais são as tecnologias nas quais a pessoa gostaria de se especializar ou de conhecer. Aqui, a pessoa pode responder N tecnologias, uma de cada vez. Então, enquanto ela continuar respondendo ok para a pergunta: "Tem mais alguma tecnologia que você gostaria de aprender?", continue apresentando para ela o Prompt, para que ela complete o nome da tecnologia em questão. E, logo depois, apresente uma mensagem comentando algo sobre a linguagem inserida.
