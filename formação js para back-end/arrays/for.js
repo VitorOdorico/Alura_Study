@@ -3,8 +3,8 @@
 //     console.log(inicial)
 // }
 
-const list = [100, 200, 300, 400, 500, 600]
-    for(let i = 0;list <= list.length[i]; i += 1){
-        console.log(list)
+var lista = [100, 200, 300, 400, 500, 600];
+    for(let indice =0;indice < lista.length;indice++){
+        console.log(lista[indice])
     }
 

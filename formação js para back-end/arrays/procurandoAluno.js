@@ -35,4 +35,4 @@ function exibeNomeNota(aluno){
         console.log('aluno nao encontrado')
     }
 }
-exibeNomeNota('jose')
+exibeNomeNota('matheus')
