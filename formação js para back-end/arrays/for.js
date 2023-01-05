@@ -4,6 +4,7 @@
 // }
 
 const list = [100, 200, 300, 400, 500, 600]
-for(let i = 0;list <= list.length[i]; i += 1){
-    console.log(list)
-}
+    for(let i = 0;list <= list.length[i]; i += 1){
+        console.log(list)
+    }
+
